@@ -1,80 +1,51 @@
 pipeline {
     agent any
-    options { buildDiscarder(logRotator(numToKeepStr: '5')) }
+    options { 
+    	buildDiscarder(logRotator(numToKeepStr: '5'))
+    	skipDefaultCheckout(true)
+
+     }
+
+     environment {
+     	git_Credentials = credentials('GitCredentials')
+     }
+
     parameters {
-            string(name: 'ansible_branch', defaultValue: 'master', description: 'Which Ansible branch to use for reading template vars ?')
+            string(name: 'branch_name', defaultValue: 'master', description: 'The branch from which Code is to be released')
     }
     /* tools {
             maven 'apache-maven-3.0.1'
     } */
     stages {
 
-        stage('Build With Unit Tests') {
-                    steps {
-                     configFileProvider([configFile(fileId: "maven-settings-file", variable: 'MAVEN_SETTINGS')]) {
-                            sh 'mvn clean install -Punit-tests -s $MAVEN_SETTINGS'
-                     }
-                        
-                    }
-                }
-
-        stage('Prepare Environment') {
-                    steps {
-                         dir("${env.WORKSPACE}/deploy") {
-                               echo "Displaying user info"
-                               sh "rm -rfv *"
-                               sh "cp -r ../target/registration-service-bundle-zip.zip ."
-                               sh "unzip -o registration-service-bundle-zip.zip"
-                               sh "cp lib/registration-service.jar ."
-                               sh "ls -l"
-                         }
-                    }
+        stage('Checkout Branch for Release') {
+                steps {
+                        echo "The Credentials  I got are : $git_Credentials and pipeline param is : $params.branch_name other way ${params.branch_name}"
+                    	deleteDir()
+                     	git branch: "$params.branch_name", credentialsId: 'GitCredentials', url: 'https://github.com/shred22/spring-boot-oai3.git'
+                }               
         }
-        stage('Modify Config With Ansible') {
-                     steps {
-                            echo 'Deploying....'
-                            dir("${env.WORKSPACE}/ansible") {
-                              sh "ls -l"
-                              sh "rm -rfv *"
-                              sh "ls -l"
-                              sh "cp -r /home/dell/shreyas/Programming/Ansible/pipeline-data ."
-                              sh """ansible-playbook -i ./pipeline-data/inventory.txt ./pipeline-data/templating-playbook.yaml"""
-                            }
-                     }
-
-         }
-          stage('Start Application') {
-                        steps {
-                                 dir("${env.WORKSPACE}/deploy/scripts") {
-                                    echo "Current Dir is:"
-                                    sh "pwd"
-                                    sh "./start-app.sh"
-                                 }
-                        }
-          }
-        stage('Integration Tests') {
+        
+        stage('Build Code') {
                steps {
-                    sleep(time:5,unit:"SECONDS")
                     configFileProvider([configFile(fileId: "maven-settings-file", variable: 'MAVEN_SETTINGS')]) {
-                        sh "mvn clean install -Pintegration-tests -s $MAVEN_SETTINGS"
+                        sh "mvn clean install -DskipTests -s $MAVEN_SETTINGS"
                     }
                       
                }
         }
-          stage('Stop Application') {
+        stage('Release Code') {
                steps {
-                        echo "Current Dir is:"
-                        sh "pwd"
-                        dir("${env.WORKSPACE}/deploy/scripts") {
-                          sh "./stop-app.sh"
-                        }
-               }
-         }
-        stage('Sonar Scan') {
-               steps {
-                   configFileProvider([configFile(fileId: "maven-settings-file", variable: 'MAVEN_SETTINGS')]) {
-                             sh 'mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=0675e85b9fa3ae24dd38fb9aa50715d7e7f23d5b -s $MAVEN_SETTINGS'
-                   }
+                    configFileProvider([configFile(fileId: "maven-settings-file", variable: 'MAVEN_SETTINGS')]) {
+                        withCredentials([usernamePassword(credentialsId: 'GitCredentials', passwordVariable: 'paswd', usernameVariable: 'username')]) {
+                            sh "git remote add git http://${username}:${paswd}@github.com/shred22/spring-boot-oai3.git"
+                            sh """mvn -B release:clean release:prepare release:perform -Dusername=${username} -Dpassword=${paswd}
+                              -Dtag=reg-service -DreleaseVersion=1.2 -DdevelopmentVersion=2.0-SNAPSHOT
+                              -s $MAVEN_SETTINGS"""
+                        }   
+                        
+                    }
+                      
                }
         }
     }
