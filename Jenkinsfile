@@ -24,7 +24,7 @@ pipeline {
                 steps {
                         echo "The Credentials  I got are : $git_Credentials and pipeline param is : $params.branch_name other way ${params.branch_name}"
                     	deleteDir()
-                     	git branch: "$params.branch_name", credentialsId: 'GitCredentials', url: 'https://github.com/shred22/spring-boot-oai3.git'
+                     	git branch: "$params.branch_name", credentialsId: 'GitCredentials', url: 'git@github.com:shred22/spring-boot-oai3.git'
                 }               
         }
         
@@ -47,11 +47,12 @@ pipeline {
                steps {
                     configFileProvider([configFile(fileId: "maven-settings-file", variable: 'MAVEN_SETTINGS')]) {
                          withCredentials([usernamePassword(credentialsId: 'GitCredentials', passwordVariable: 'paswd', usernameVariable: 'username')]) {
-                            sh "git remote add git http://${username}:${paswd}@github.com/shred22/spring-boot-oai3.git"
-                            sh "git commit -am 'Comitting Incremented Versions from Jenkins $params.release_version'"
-                            sh "git tag -a ${parmas.release_version} -m 'Tagged Version from Jenkins $params.release_version'"
-                            sh "git push ${params.branch_name}"
-                            sh "git push ${params.release_version}"
+                            sh "whoami"
+                            //sh "git remote add reg-service https://${username}:${paswd}@github.com/${username}/spring-boot-oai3.git"
+                            sh "git commit -am 'Comitting Incremented Versions from Jenkins ${params.release_version}'"
+                            sh "git tag -a ${params.release_version} -m 'Tagged Version from Jenkins $params.release_version'"
+                            sh "git push --set-upstream origin ${params.branch_name}"
+                            //sh "git push ${params.release_version}"
                         } 
                     }
                 }
