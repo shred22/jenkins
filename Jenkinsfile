@@ -15,9 +15,11 @@ pipeline {
             string(name: 'release_version', description: 'Code Release Version (SNAPSHOTS NOT ALLOWED)')
             string(name: 'next_dev_version', description: 'Next Version for Development Version(ONLY SNAPSHOTS)')
     }
-    /* tools {
-            maven 'apache-maven-3.0.1'
-    } */
+    
+    tools {
+            maven 'Ubuntu-Maven'
+    }
+
     stages {
 
         stage('Checkout Branch for Release') {
@@ -36,16 +38,15 @@ pipeline {
                       
                }
         }
-        stage('Increment Version') {
+        stage('Automated Release') {
                steps {
-                    configFileProvider([configFile(fileId: "maven-settings-file", variable: 'MAVEN_SETTINGS')]) {
-                        sh """mvn -B release:clean release:prepare release:perform 
-                        -DreleaseVersion=${params.release_version} -DdevelopmentVersion=${params.next_dev_version}
-                        -Dusername=shred22 -Dpassword=Drogon12@
-                        -s $MAVEN_SETTINGS"""
-                    }
+                        withCredentials([usernamePassword(credentialsId: 'GitCredentials', passwordVariable: 'paswd', usernameVariable: 'username')]) {
+                            configFileProvider([configFile(fileId: "maven-settings-file", variable: 'MAVEN_SETTINGS')]) {
+                                sh "mvn -B release:clean release:prepare release:perform -DreleaseVersion=${params.release_version} -DdevelopmentVersion=${params.next_dev_version} -s $MAVEN_SETTINGS"
+                            }
+                        }
                 }
+                        
+            }
         }
-        
-    }
-}
+    }    
