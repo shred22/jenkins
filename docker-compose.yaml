@@ -1,0 +1,35 @@
+version: "3.8"
+services:
+  docker-jenkins:
+    image: jenkins/jenkins:lts
+    volumes:
+      - type: volume
+        source: jenkins_home
+        target: /var/jenkins_home
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+      - type: bind
+        source: /usr/bin/docker
+        target: /usr/bin/docker
+    expose:
+      - 8080
+      - 50000
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    networks:
+      jenkins-network:
+    deploy:
+      replicas: 2
+      update_config:
+        parallelism: 2
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+
+volumes:
+  jenkins_home:
+
+networks:
+  jenkins-network:
