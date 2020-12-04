@@ -1,0 +1,135 @@
+Started by user [8mha:////4Lfn1RE1Gvd8av2j6AAVWqHuLxZZbUb25WP8aWzcrJE2AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL94oyi1BQjIwDhXhRFwgAAAA==[0mShreyas Dange
+[8mha:////4FwqB7BB5GaNWCRj8jsns1AR0FPV0VYAJO2bp6GzdAr2AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTptUtLjABGY5efjgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
+Obtained Jenkinsfile from 89a607c8660cff79a7a8b81d21eb5f0a6f200a5c
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C7/Nd1Jdi0h0iVFDyYQmwSH8urfoz+BFCWf3Irs30/mAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4K4a5drqDpndPCBONqEBhQDL9RQK3n1op8h2f7hQ6NeDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4En1UxC2nra64yR310lt4xVBHq8Q5RdtfvpA059kZqRSAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/springboot-mongodb_master
+[8mha:////4M9A/l3VlGKuMWQ9xZxRct/XaanHADcpiP7vVM8GT2h9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4F2dGc4BEVn/5AcqD4VXvtTAQpaH3x+U22hgJlRWsSn8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Lir+MAlV411/UY1GfrUIG6lNGDKCDax5yM1o1NSVF+KAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4ABcMzZW3T8bRG4DfIDVDKhY/kGG/FXIOT9jtCWn8Ns3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shred22/spring-boot-mongodb.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shred22/spring-boot-mongodb.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+ > git fetch --no-tags --progress -- https://github.com/shred22/spring-boot-mongodb.git +refs/heads/master:refs/remotes/origin/master # timeout=10
+Checking out Revision 89a607c8660cff79a7a8b81d21eb5f0a6f200a5c (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89a607c8660cff79a7a8b81d21eb5f0a6f200a5c # timeout=10
+Commit message: "Initial set of files"
+ > git rev-list --no-walk 89a607c8660cff79a7a8b81d21eb5f0a6f200a5c # timeout=10
+[8mha:////4NBvO7qfG/vSqN+S3FcSoUSXRVR4DrgVEra0Z2skhwZ/AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4G5it3leuHRtwiiVBxnl3EcC5nFu5PJ68QtBO42dGLbsAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4IWYEXcjocF4PlYDHO5eg91bsEEvCKaGYaUab6zFTyuLAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Gl9SDisSOj91+iBLO3jjLPPr8E2erMJ3WO+vkE4qo0MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4A5bJEYo6QgpRA9A4qUqhlGr3Hvj5safdh6ute7ZO9+4AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4FxJFRpeCBWvdMZZzRTNeL+2G4jVtrOTC5amK5P8mEsKAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker inspect -f . maven:3-alpine
+.
+[8mha:////4DrNTYJwIsa6NGGqrtYdu0XSEJgRozFmvCCYsRhqN4PqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUldgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AHLv803CAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 00ed33313e9df4d9c9c0cef3784fbf87c7e1846aa6407d81bc70c46a9c2e2d24
+$ docker run -t -d -u 1000:1000 -v $HOME/.m2:/root/.m2 -w /var/jenkins_home/workspace/springboot-mongodb_master --volumes-from 00ed33313e9df4d9c9c0cef3784fbf87c7e1846aa6407d81bc70c46a9c2e2d24 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3-alpine cat
+$ docker top 0e781c2837661a7d984b73d7c284a52022923367b02398c12fef1febdb5c0b3d -eo pid,comm
+[8mha:////4PcNIUch49dDKSO4fOxiP9b30v/7ST4cH6UjvSvcgu7MAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4DlxrcNDgsR8Fd+4MOkGqiNRl+rVnb8uNmi+28wItTo0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4PUEBWLkGYlzhew8/5F1w0Wr4PjkSk7kZzOQ0TNbjBDKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build With Unit Tests)
+[8mha:////4OUBEheI+GgOES5PgltM3NfvM8KrXmICq9wijJyTzFceAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [MySettings] to file:/var/jenkins_home/workspace/springboot-mongodb_master@tmp/config513957782991884432tmp
+[8mha:////4LZnRGYjBjZOPcAdsDoGQgZodOEein/g6017o8kz7bSRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4KnjKwKsVY4or0Cu2yWlTUzDNcEPBjZ4ulw7L3qGaIv5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ mvn -version
+Apache Maven 3.5.0 (ff8f5e7444045639af65f6095c62210b5713f426; 2017-04-03T19:39:06Z)
+Maven home: /usr/share/maven
+Java version: 1.8.0_131, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-1.8-openjdk/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-123-generic", arch: "amd64", family: "unix"
+[8mha:////4Nct96koLLPqmQdwYRqTbwRtWEQgwz4MuB3ml6KnEyflAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ mvn clean test -DskipTests
+[INFO] Scanning for projects...
+Downloading: https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.2.6.RELEASE/spring-boot-starter-parent-2.2.6.RELEASE.pom
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-parent/2.2.6.RELEASE/spring-boot-starter-parent-2.2.6.RELEASE.pom
+Progress (1): 0.6/8.1 kBProgress (1): 1.9/8.1 kBProgress (1): 3.3/8.1 kBProgress (1): 4.7/8.1 kBProgress (1): 6.0/8.1 kBProgress (1): 7.4/8.1 kBProgress (1): 8.1 kB                        Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-parent/2.2.6.RELEASE/spring-boot-starter-parent-2.2.6.RELEASE.pom (8.1 kB at 5.7 kB/s)
+Downloading: https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.2.6.RELEASE/spring-boot-dependencies-2.2.6.RELEASE.pom
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-dependencies/2.2.6.RELEASE/spring-boot-dependencies-2.2.6.RELEASE.pom
+Progress (1): 0.6/127 kBProgress (1): 1.9/127 kBProgress (1): 3.3/127 kBProgress (1): 4.7/127 kBProgress (1): 6.1/127 kBProgress (1): 7.4/127 kBProgress (1): 8.8/127 kBProgress (1): 10/127 kB Progress (1): 11/127 kBProgress (1): 13/127 kBProgress (1): 13/127 kBProgress (1): 15/127 kBProgress (1): 16/127 kBProgress (1): 17/127 kBProgress (1): 19/127 kBProgress (1): 20/127 kBProgress (1): 21/127 kBProgress (1): 23/127 kBProgress (1): 24/127 kBProgress (1): 26/127 kBProgress (1): 27/127 kBProgress (1): 28/127 kBProgress (1): 30/127 kBProgress (1): 31/127 kBProgress (1): 32/127 kBProgress (1): 34/127 kBProgress (1): 35/127 kBProgress (1): 37/127 kBProgress (1): 38/127 kBProgress (1): 39/127 kBProgress (1): 41/127 kBProgress (1): 41/127 kBProgress (1): 43/127 kBProgress (1): 44/127 kBProgress (1): 46/127 kBProgress (1): 47/127 kBProgress (1): 48/127 kBProgress (1): 50/127 kBProgress (1): 51/127 kBProgress (1): 52/127 kBProgress (1): 54/127 kBProgress (1): 55/127 kBProgress (1): 57/127 kBProgress (1): 58/127 kBProgress (1): 58/127 kBProgress (1): 59/127 kBProgress (1): 61/127 kBProgress (1): 62/127 kBProgress (1): 64/127 kBProgress (1): 64/127 kBProgress (1): 65/127 kBProgress (1): 66/127 kBProgress (1): 68/127 kBProgress (1): 69/127 kBProgress (1): 70/127 kBProgress (1): 72/127 kBProgress (1): 73/127 kBProgress (1): 75/127 kBProgress (1): 76/127 kBProgress (1): 77/127 kBProgress (1): 79/127 kBProgress (1): 80/127 kBProgress (1): 82/127 kBProgress (1): 83/127 kBProgress (1): 84/127 kBProgress (1): 86/127 kBProgress (1): 87/127 kBProgress (1): 88/127 kBProgress (1): 90/127 kBProgress (1): 91/127 kBProgress (1): 92/127 kBProgress (1): 94/127 kBProgress (1): 95/127 kBProgress (1): 96/127 kBProgress (1): 98/127 kBProgress (1): 99/127 kBProgress (1): 100/127 kBProgress (1): 102/127 kBProgress (1): 103/127 kBProgress (1): 105/127 kBProgress (1): 106/127 kBProgress (1): 107/127 kBProgress (1): 107/127 kBProgress (1): 109/127 kBProgress (1): 110/127 kBProgress (1): 111/127 kBProgress (1): 113/127 kBProgress (1): 114/127 kBProgress (1): 116/127 kBProgress (1): 117/127 kBProgress (1): 118/127 kBProgress (1): 119/127 kBProgress (1): 121/127 kBProgress (1): 122/127 kBProgress (1): 124/127 kBProgress (1): 125/127 kBProgress (1): 126/127 kBProgress (1): 127 kB                        Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-dependencies/2.2.6.RELEASE/spring-boot-dependencies-2.2.6.RELEASE.pom (127 kB at 57 kB/s)
+Downloading: https://repo.spring.io/snapshot/com/fasterxml/jackson/jackson-bom/2.10.3/jackson-bom-2.10.3.pom
+Downloading: https://repo.spring.io/milestone/com/fasterxml/jackson/jackson-bom/2.10.3/jackson-bom-2.10.3.pom
+Downloading: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.3/jackson-bom-2.10.3.pom
+Progress (1): 1.4/13 kBProgress (1): 2.7/13 kBProgress (1): 4.1/13 kBProgress (1): 5.5/13 kBProgress (1): 6.9/13 kBProgress (1): 8.2/13 kBProgress (1): 9.6/13 kBProgress (1): 11/13 kB Progress (1): 12/13 kBProgress (1): 13 kB                      Downloaded: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.3/jackson-bom-2.10.3.pom (13 kB at 8.1 kB/s)
+Downloading: https://repo.spring.io/snapshot/com/fasterxml/jackson/jackson-parent/2.10/jackson-parent-2.10.pom
+Downloading: https://repo.spring.io/milestone/com/fasterxml/jackson/jackson-parent/2.10/jackson-parent-2.10.pom
+Downloading: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.10/jackson-parent-2.10.pom
+Progress (1): 1.4/8.3 kBProgress (1): 2.7/8.3 kBProgress (1): 4.1/8.3 kBProgress (1): 5.5/8.3 kBProgress (1): 6.9/8.3 kBProgress (1): 8.2/8.3 kBProgress (1): 8.3 kB                        Downloaded: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.10/jackson-parent-2.10.pom (8.3 kB at 13 kB/s)
+Downloading: https://repo.spring.io/snapshot/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Downloading: https://repo.spring.io/milestone/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Downloading: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Progress (1): 1.4/23 kBProgress (1): 2.7/23 kBProgress (1): 4.1/23 kBProgress (1): 5.5/23 kBProgress (1): 6.9/23 kBProgress (1): 8.2/23 kBProgress (1): 9.6/23 kBProgress (1): 11/23 kB Progress (1): 12/23 kBProgress (1): 14/23 kBProgress (1): 15/23 kBProgress (1): 16/23 kBProgress (1): 18/23 kBProgress (1): 19/23 kBProgress (1): 21/23 kBProgress (1): 22/23 kBProgress (1): 23 kB                      Downloaded: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom (23 kB at 38 kB/s)
+Downloading: https://repo.spring.io/snapshot/io/micrometer/micrometer-bom/1.3.6/micrometer-bom-1.3.6.pom
+Downloading: https://repo.spring.io/milestone/io/micrometer/micrometer-bom/1.3.6/micrometer-bom-1.3.6.pom
+Progress (1): 0.6/6.6 kBProgress (1): 2.0/6.6 kBProgress (1): 3.3/6.6 kBProgress (1): 4.7/6.6 kBProgress (1): 6.1/6.6 kBProgress (1): 6.6 kB                        Downloaded: https://repo.spring.io/milestone/io/micrometer/micrometer-bom/1.3.6/micrometer-bom-1.3.6.pom (6.6 kB at 7.2 kB/s)
+Downloading: https://repo.spring.io/snapshot/io/netty/netty-bom/4.1.48.Final/netty-bom-4.1.48.Final.pom
+Downloading: https://repo.spring.io/milestone/io/netty/netty-bom/4.1.48.Final/netty-bom-4.1.48.Final.pom
+Downloading: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.48.Final/netty-bom-4.1.48.Final.pom
+Progress (1): 1.4/7.9 kBProgress (1): 2.7/7.9 kBProgress (1): 4.1/7.9 kBProgress (1): 5.5/7.9 kBProgress (1): 6.9/7.9 kBProgress (1): 7.9 kB                        Downloaded: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.48.Final/netty-bom-4.1.48.Final.pom (7.9 kB at 13 kB/s)
+Downloading: https://repo.spring.io/snapshot/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Downloading: https://repo.spring.io/milestone/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Progress (1): 1.4/4.8 kBProgress (1): 2.7/4.8 kBProgress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom (4.8 kB at 8.1 kB/s)
+Downloading: https://repo.spring.io/snapshot/io/projectreactor/reactor-bom/Dysprosium-SR6/reactor-bom-Dysprosium-SR6.pom
+Downloading: https://repo.spring.io/milestone/io/projectreactor/reactor-bom/Dysprosium-SR6/reactor-bom-Dysprosium-SR6.pom
+Downloading: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR6/reactor-bom-Dysprosium-SR6.pom
+Progress (1): 1.4/4.1 kBProgress (1): 2.7/4.1 kBProgress (1): 4.1 kB                        Downloaded: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR6/reactor-bom-Dysprosium-SR6.pom (4.1 kB at 6.6 kB/s)
+Downloading: https://repo.spring.io/snapshot/io/rsocket/rsocket-bom/1.0.0-RC6/rsocket-bom-1.0.0-RC6.pom
+Downloading: https://repo.spring.io/milestone/io/rsocket/rsocket-bom/1.0.0-RC6/rsocket-bom-1.0.0-RC6.pom
+Downloading: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.0-RC6/rsocket-bom-1.0.0-RC6.pom
+Progress (1): 1.4/3.2 kBProgress (1): 2.7/3.2 kBProgress (1): 3.2 kB                        Downloaded: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.0-RC6/rsocket-bom-1.0.0-RC6.pom (3.2 kB at 5.1 kB/s)
+Downloading: https://repo.spring.io/snapshot/org/apache/logging/log4j/log4j-bom/2.12.1/log4j-bom-2.12.1.pom
+Aborted by [8mha:////4Lfn1RE1Gvd8av2j6AAVWqHuLxZZbUb25WP8aWzcrJE2AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL94oyi1BQjIwDhXhRFwgAAAA==[0mShreyas Dange
+Sending interrupt signal to process
+[8mha:////4EjnzaydE4MUH8kDQ8rrEpJ64CX4/ebCGcVIZ4ENVcgjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+Deleting 1 temporary files
+[8mha:////4FMphmHw70DwoC8NcZh0LE1fHdjY8nPBdfKxII6SMmuNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4Lkxytz/jq5kVUBqIBe1kcajxBJDp5Tfa1d8eN69LhPmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4GbtcFWyQ9ULiaozOgkUmQSzRuZv5rkvDC6Wq+f3W/4KAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
+[8mha:////4PQYALn5FXppRRli3cIhbXvUWyeZKpOnLd+tb0rKSZauAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1mJwqBwgAAAA==[0m[Pipeline] stage
+[8mha:////4MjNlj5a5yA2uFfle4RSnbTV0R2OtJUZ7lwpqhHwQGxcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Push Docker Image)
+Stage "Push Docker Image" skipped due to earlier failure(s)
+[8mha:////4LXSgOk7DBh9B5OUYXnIgEGqo4cLsBDAa67t1cFh2kW3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEp+Rh+vgAAAA==[0m[Pipeline] }
+[8mha:////4KamKQBhHpr3b5c0cdj/AQrIjshMtgb/ylpP0kLKFqG/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g0aGkPCvgAAAA==[0m[Pipeline] // stage
+[8mha:////4L9wPJY7Ws0LCcEzkOU/AtVgyOzZbj1PC+ldfOzeZOHyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICQlQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEfQh/xvgAAAA==[0m[Pipeline] }
+$ docker stop --time=1 0e781c2837661a7d984b73d7c284a52022923367b02398c12fef1febdb5c0b3d
+$ docker rm -f 0e781c2837661a7d984b73d7c284a52022923367b02398c12fef1febdb5c0b3d
+[8mha:////4LGJLDyihGOLS7RSvjtyuv40b4fq/+Y2ddFzPVbHkCPMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiyhRE2+AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4MJnhcLGB6C++oEuBT7o7vNhxbG7CMBHkbAleazA/lakAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzsc9X1Bw0nuru+AAAA[0m[Pipeline] }
+[8mha:////4E6jm0zewEMvkeyXs2NKo/3GaLkTgQ/fPQvA4YIbQcKAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSomo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9Bz7E4Qe+AAAA[0m[Pipeline] // withEnv
+[8mha:////4M0KduJBqefVpcOOu+kl/hfCk+DtYS5nicUsDSAFczx4AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9OLA1qvQAAAA==[0m[Pipeline] }
+[8mha:////4Dp2OkLKMIis9LbzDWzyVR8gk0n+Zunw9Qmer0jhGYB4AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUjJVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXZAJyb0AAAA=[0m[Pipeline] // node
+[8mha:////4KJzdguglW50TWBnz1+IAzxlCg+9EnbnBayWNG/vxq3EAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABvarvm9AAAA[0m[Pipeline] End of Pipeline
+java.io.IOException: failed to run ps
+	at org.jenkinsci.plugins.docker.workflow.WithContainerStep$Decorator$1.kill(WithContainerStep.java:341)
+	at org.jenkinsci.plugins.durabletask.FileMonitoringTask$FileMonitoringController.stop(FileMonitoringTask.java:370)
+	at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.stop(DurableTaskStep.java:513)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.stop(CpsThread.java:319)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1161)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1150)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$4$1.run(CpsFlowExecution.java:917)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:38)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:136)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: ABORTED

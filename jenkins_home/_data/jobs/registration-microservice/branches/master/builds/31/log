@@ -1,0 +1,187 @@
+Started by user [8mha:////4Lfn1RE1Gvd8av2j6AAVWqHuLxZZbUb25WP8aWzcrJE2AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZe/dLi1CL94oyi1BQjIwDhXhRFwgAAAA==[0mShreyas Dange
+[8mha:////4FBGdUSG6uoNUkP+XHQOr/aAPRXCn99C+0FOtyO5AcYoAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTptXVWywC7AtzajgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
+[8mha:////4NLWvI/hZ0+BmH9HMsvgqnHYgTFYemCcO7wpkv4jwaFMAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTptXVWGwF8hw9ZjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 59 remaining (6 under budget). Next quota of 60 in 59 min
+Obtained Jenkinsfile from c17768f666ed65dd894d1393f8e9830b26896c82
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C7/Nd1Jdi0h0iVFDyYQmwSH8urfoz+BFCWf3Irs30/mAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4K4a5drqDpndPCBONqEBhQDL9RQK3n1op8h2f7hQ6NeDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4En1UxC2nra64yR310lt4xVBHq8Q5RdtfvpA059kZqRSAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/registration-microservice_master
+[8mha:////4M9A/l3VlGKuMWQ9xZxRct/XaanHADcpiP7vVM8GT2h9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4F2dGc4BEVn/5AcqD4VXvtTAQpaH3x+U22hgJlRWsSn8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Lir+MAlV411/UY1GfrUIG6lNGDKCDax5yM1o1NSVF+KAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4ABcMzZW3T8bRG4DfIDVDKhY/kGG/FXIOT9jtCWn8Ns3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shred22/registration-microservice.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shred22/registration-microservice.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --no-tags --force --progress -- https://github.com/shred22/registration-microservice.git +refs/heads/master:refs/remotes/origin/master # timeout=10
+Checking out Revision c17768f666ed65dd894d1393f8e9830b26896c82 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c17768f666ed65dd894d1393f8e9830b26896c82 # timeout=10
+Commit message: "Adding - Docker agent for Jenkins pipeline running docker"
+ > git rev-list --no-walk c17768f666ed65dd894d1393f8e9830b26896c82 # timeout=10
+[8mha:////4NBvO7qfG/vSqN+S3FcSoUSXRVR4DrgVEra0Z2skhwZ/AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4G5it3leuHRtwiiVBxnl3EcC5nFu5PJ68QtBO42dGLbsAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4IWYEXcjocF4PlYDHO5eg91bsEEvCKaGYaUab6zFTyuLAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Gl9SDisSOj91+iBLO3jjLPPr8E2erMJ3WO+vkE4qo0MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4A5bJEYo6QgpRA9A4qUqhlGr3Hvj5safdh6ute7ZO9+4AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4FxJFRpeCBWvdMZZzRTNeL+2G4jVtrOTC5amK5P8mEsKAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker inspect -f . maven:3-alpine
+.
+[8mha:////4DrNTYJwIsa6NGGqrtYdu0XSEJgRozFmvCCYsRhqN4PqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUldgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AHLv803CAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 55bef3a6085891c1c8999c5528ff97d5e1c88300ca6a732d3c87f8689e224ab3
+$ docker run -t -d -u 1000:1000 -v $HOME/.m2:/root/.m2 -w /var/jenkins_home/workspace/registration-microservice_master --volumes-from 55bef3a6085891c1c8999c5528ff97d5e1c88300ca6a732d3c87f8689e224ab3 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3-alpine cat
+$ docker top 3577a1918534f529545929d22c0367a2bd7fc125c6d2d3d2625f9b6596a6aa02 -eo pid,comm
+[8mha:////4PcNIUch49dDKSO4fOxiP9b30v/7ST4cH6UjvSvcgu7MAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4DlxrcNDgsR8Fd+4MOkGqiNRl+rVnb8uNmi+28wItTo0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4PUEBWLkGYlzhew8/5F1w0Wr4PjkSk7kZzOQ0TNbjBDKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build With Unit Tests)
+[8mha:////4OUBEheI+GgOES5PgltM3NfvM8KrXmICq9wijJyTzFceAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [maven-settings-file] to file:/var/jenkins_home/workspace/registration-microservice_master@tmp/config4589308372656764695tmp
+[8mha:////4LZnRGYjBjZOPcAdsDoGQgZodOEein/g6017o8kz7bSRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4KnjKwKsVY4or0Cu2yWlTUzDNcEPBjZ4ulw7L3qGaIv5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ mvn -version
+Apache Maven 3.5.0 (ff8f5e7444045639af65f6095c62210b5713f426; 2017-04-03T19:39:06Z)
+Maven home: /usr/share/maven
+Java version: 1.8.0_131, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-1.8-openjdk/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-123-generic", arch: "amd64", family: "unix"
+[8mha:////4Nct96koLLPqmQdwYRqTbwRtWEQgwz4MuB3ml6KnEyflAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ mvn clean test -Punit-tests -s /var/jenkins_home/workspace/registration-microservice_master@tmp/config4589308372656764695tmp
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'registry' (position: START_TAG seen ...</id>\n      <registry>... @92:17)  @ /var/jenkins_home/workspace/registration-microservice_master@tmp/config4589308372656764695tmp, line 92, column 17
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building registration-service 1.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ registration-service ---
+[INFO] Deleting /var/jenkins_home/workspace/registration-microservice_master/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.3:prepare-agent (pre-unit-test) @ registration-service ---
+[INFO] surefireArgLine set to -javaagent:/var/jenkins_home/workspace/registration-microservice_master/?/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/var/jenkins_home/workspace/registration-microservice_master/target/coverage-reports/jacoco-unit.exec,append=true,excludes=*MethodAccess,output=file
+[INFO] 
+[INFO] --- openapi-generator-maven-plugin:4.3.0:generate (registration-api) @ registration-service ---
+[WARNING] Output directory does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation null
+[INFO] Processing operation null
+[INFO] Processing operation null
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/Address.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/CandidateDetails.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/ErrorResponse.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/RegistrationDetailResponse.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/RegistrationRequest.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/RegistrationResponse.java
+[WARNING] Empty operationId found for path: post /register. Renamed to auto-generated operationId: registerPost
+[WARNING] Empty operationId found for path: get /register/{regId}. Renamed to auto-generated operationId: registerRegIdGet
+[WARNING] Empty operationId found for path: delete /register/{regId}. Renamed to auto-generated operationId: registerRegIdDelete
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/RegisterApiController.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/RegisterApi.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/RegisterApiDelegate.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/pom.xml
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/README.md
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/OpenAPI2SpringBoot.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/RFC3339DateFormat.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/main/resources/application.properties
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/configuration/HomeController.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/configuration/OpenAPIDocumentationConfig.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/ApiUtil.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/.openapi-generator-ignore
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/.openapi-generator/VERSION
+[INFO] 
+[INFO] --- openapi-generator-maven-plugin:4.3.0:generate (authorization-api) @ registration-service ---
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation null
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/AuthenticationRequest.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/AuthenticationResponse.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/model/ErrorResponse.java
+[WARNING] Empty operationId found for path: post /authenticate. Renamed to auto-generated operationId: authenticatePost
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/AuthenticateApiController.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/AuthenticateApi.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/AuthenticateApiDelegate.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/pom.xml
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/README.md
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/OpenAPI2SpringBoot.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/RFC3339DateFormat.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/main/resources/application.properties
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/configuration/HomeController.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/configuration/OpenAPIDocumentationConfig.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/src/gen/java/org/openapitools/api/ApiUtil.java
+[INFO] writing file /var/jenkins_home/workspace/registration-microservice_master/target/generated-sources/openapi/.openapi-generator/VERSION
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ registration-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 26 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ registration-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 47 source files to /var/jenkins_home/workspace/registration-microservice_master/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.299 s
+[INFO] Finished at: 2020-11-17T14:49:51Z
+[INFO] Final Memory: 49M/688M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project registration-service: Fatal error compiling: invalid target release: 11 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4EjnzaydE4MUH8kDQ8rrEpJ64CX4/ebCGcVIZ4ENVcgjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+Deleting 1 temporary files
+[8mha:////4FMphmHw70DwoC8NcZh0LE1fHdjY8nPBdfKxII6SMmuNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // configFileProvider
+[8mha:////4Lkxytz/jq5kVUBqIBe1kcajxBJDp5Tfa1d8eN69LhPmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4GbtcFWyQ9ULiaozOgkUmQSzRuZv5rkvDC6Wq+f3W/4KAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
+[8mha:////4PQYALn5FXppRRli3cIhbXvUWyeZKpOnLd+tb0rKSZauAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1mJwqBwgAAAA==[0m[Pipeline] stage
+[8mha:////4MjNlj5a5yA2uFfle4RSnbTV0R2OtJUZ7lwpqhHwQGxcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Integration Tests)
+Stage "Integration Tests" skipped due to earlier failure(s)
+[8mha:////4LXSgOk7DBh9B5OUYXnIgEGqo4cLsBDAa67t1cFh2kW3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEp+Rh+vgAAAA==[0m[Pipeline] }
+[8mha:////4KamKQBhHpr3b5c0cdj/AQrIjshMtgb/ylpP0kLKFqG/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g0aGkPCvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DG5e5G0dHYOJpKbTmxikjhCKs3c/OPf4lprF5ziudmXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUhJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQHPzyTxwgAAAA==[0m[Pipeline] stage
+[8mha:////4IVmu2XH28D0d7ZNR2GwbbB4jnyArZJsRP0pkGCeoMiTAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Push Docker Image)
+Stage "Push Docker Image" skipped due to earlier failure(s)
+[8mha:////4OhUSM+R8qpg7/VZAcpOuX8Dc3BcKKgx9RLifH69uX/fAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fj0WMib4AAAA=[0m[Pipeline] }
+[8mha:////4Pnv6R5xdYM4z2EXYT0aBVoHbGoyOnQTj0mslw3F8jbeAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKClBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvKbXNb4AAAA=[0m[Pipeline] // stage
+[8mha:////4LhrTwNXdwMLRwyvwmbc+Tt19da2pu7ucNSGN6Ur35tlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2zb3edZvQHZjbVqwgAAAA==[0m[Pipeline] stage
+[8mha:////4AREphcbevZyCtIiMXQ7qX/iopo8GGM7WrU2gTjmg3k3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] { (Upload TestReport)
+Stage "Upload TestReport" skipped due to earlier failure(s)
+[8mha:////4B7Z6Vuoqg78nQnzhaQGMc5L0lMn0vqgjKQzF3dTrwbkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4DDcBW+AAAA[0m[Pipeline] }
+[8mha:////4Fn940NUiwyK6ZEav/xTpNieH9pZ4O+lsRlVEg5lG/7gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGzICupvgAAAA==[0m[Pipeline] // stage
+[8mha:////4MRJKQGw5S0IHnIsUgpKFznRUtg2TpmpBwsDW24IFwnVAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSRARBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm1227f7zrN6iTXcdwgAAAA==[0m[Pipeline] stage
+[8mha:////4Mcyv3HsPi6DQvKHaQXAjomsVKMISwnRATPPMEl3jULPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (Sonar Scan)
+Stage "Sonar Scan" skipped due to earlier failure(s)
+[8mha:////4EnB/Z3tdFY9IrU+42IWCWOK6zf/LNbEmiQ6Sgq0vU1pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw84UjgPvgAAAA==[0m[Pipeline] }
+[8mha:////4IxZ+fPhjLqbQsPMqtZHMhj4SUShLzCpv2CF3NOGRZHqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAC7Fjs74AAAA=[0m[Pipeline] // stage
+[8mha:////4OSQJoEF0M5QZViphV+URhd3cerAlgD0kMOAsFE4xidnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ltf28AGa3XB5vgAAAA==[0m[Pipeline] }
+$ docker stop --time=1 3577a1918534f529545929d22c0367a2bd7fc125c6d2d3d2625f9b6596a6aa02
+$ docker rm -f 3577a1918534f529545929d22c0367a2bd7fc125c6d2d3d2625f9b6596a6aa02
+[8mha:////4JNqbam1rZQibddvuwBWab3rExOn0Rr/+a4ClLaW8vFzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGV9yLWvP6k+K8W+AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4GOK0w8NlwM89m4eLNzAQ50GYq1PjDdhpHvBvwty+Z3RAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRpHSIitZKwwtMbIwT686xLyQVL+Jr/AGLSFRssdrZZl5v2KYIJ4pW9AYHh6lzIvjJ5iVmisPN0yx6uoqOMJE3ojVzS9qcV2yJDawpSthI2BnsPCWHlmEve/VQlVdoqwvH/B0llE6P8IRCZjOryF9YIhzuk06EP89fASwhMJRNk6uuP576RKi+AAAA[0m[Pipeline] }
+[8mha:////4HtjHouN4m9jauPoqUygGoFLqiIg0Xj0EgxgQJwIujB7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICElQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wGtGR8UvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LXoWLwbLiXx2lGJfwLjVd42me7oUZUrg/aWvQuNUTE8AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0jI1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAlk/IDb0AAAA=[0m[Pipeline] }
+[8mha:////4HuVGVwj7EfivGYbkI8wJAWH7xzQ+HSSWBA/g5VS3gLfAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AIXzzK69AAAA[0m[Pipeline] // node
+[8mha:////4EIhlP+lP/som7xM5pUn15otZ5wNio3S4RHUN0A1FsEXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A8JUm1u9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
