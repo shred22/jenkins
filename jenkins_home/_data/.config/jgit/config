@@ -1,6 +1,0 @@
-[filesystem "Oracle Corporation|1.8.0_242|/dev/sda1"]
-	timestampResolution = 1001 microseconds
-	minRacyThreshold = 6000 microseconds
-[filesystem "AdoptOpenJDK|11.0.9|/dev/sda1"]
-	timestampResolution = 25000 nanoseconds
-	minRacyThreshold = 4489 microseconds

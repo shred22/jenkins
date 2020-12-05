@@ -1,4 +1,0 @@
-registration-microservice/master
-registration-microservice_master
-springboot-mongodb/master
-springboot-mongodb_master
